@@ -1,0 +1,965 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Biometric Geo-Visualization with Spectrograms</title>
+
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.css" rel="stylesheet" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.js"></script>
+  <script src="./config.js"></script>
+
+  <style>
+    html, body, #map {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background: #0b0f18;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .demo-title {
+      position: absolute;
+      top: 25px;
+      left: 25px;
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin: 0;
+      color: rgb(255, 255, 255);
+      text-shadow: 0 2px 12px rgba(0,0,0,0.35);
+    }
+
+    h3 {
+      font-size: 15px;
+      font-weight: normal;
+      margin-top: 5px;
+      color: rgb(230, 230, 230);
+      text-shadow: 0 2px 12px rgba(0,0,0,0.35);
+    }
+
+    .legend {
+      position: absolute;
+      left: 20px;
+      bottom: 40px;
+      z-index: 2;
+      background: rgba(0, 0, 0, 0.62);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 12px;
+      padding: 14px 16px;
+      color: rgba(230,230,240,0.94);
+      font-size: 14px;
+      line-height: 1.45;
+      min-width: 240px;
+      user-select: none;
+    }
+
+    .legend-title {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .note {
+      margin-top: 10px;
+      opacity: 0.78;
+      font-size: 12px;
+    }
+
+    .info-panel {
+      position: absolute;
+      top: 24px;
+      right: 24px;
+      z-index: 3;
+      width: 340px;
+      max-height: calc(100vh - 48px);
+      overflow-y: auto;
+      box-sizing: border-box;
+      padding: 18px;
+      color: rgba(245,245,250,0.96);
+      background: rgba(10, 14, 24, 0.78);
+      backdrop-filter: blur(14px);
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: 18px;
+      box-shadow: 0 18px 50px rgba(0,0,0,0.35);
+    }
+
+    .panel-kicker {
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(220,220,235,0.62);
+      margin-bottom: 8px;
+    }
+
+    .panel-title {
+      font-size: 22px;
+      line-height: 1.2;
+      margin: 0 0 12px 0;
+      color: #ffffff;
+    }
+
+    .panel-empty {
+      color: rgba(240,240,250,0.72);
+      line-height: 1.55;
+      font-size: 14px;
+      margin-top: 8px;
+    }
+
+    .value-card {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+      padding: 12px 14px;
+      margin: 12px 0 14px 0;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .value-label {
+      font-size: 12px;
+      color: rgba(235,235,245,0.65);
+    }
+
+    .value-number {
+      font-size: 30px;
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    .media-label {
+      margin: 16px 0 8px 0;
+      font-size: 13px;
+      color: rgba(235,235,245,0.72);
+    }
+
+    .street-image {
+      display: none;
+      width: 100%;
+      height: 190px;
+      object-fit: cover;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(255,255,255,0.06);
+    }
+
+    .no-media {
+      display: none;
+      padding: 18px 14px;
+      border-radius: 14px;
+      color: rgba(235,235,245,0.55);
+      background: rgba(255,255,255,0.06);
+      border: 1px dashed rgba(255,255,255,0.18);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .street-audio {
+      display: none;
+      width: 100%;
+      margin-top: 4px;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .meta-item {
+      padding: 10px;
+      border-radius: 12px;
+      background: rgba(255,255,255,0.06);
+      font-size: 12px;
+      color: rgba(235,235,245,0.72);
+      overflow-wrap: anywhere;
+    }
+
+    .meta-item b {
+      display: block;
+      color: rgba(255,255,255,0.94);
+      font-size: 13px;
+      margin-top: 4px;
+      font-weight: 600;
+    }
+
+    @media (max-width: 760px) {
+      .info-panel {
+        top: auto;
+        right: 12px;
+        left: 12px;
+        bottom: 20px;
+        width: auto;
+        max-height: 45vh;
+      }
+
+      .legend {
+        display: none;
+      }
+    }
+
+
+    .metric-control {
+      margin-bottom: 14px;
+    }
+
+    .metric-control label {
+      display: block;
+      margin-bottom: 7px;
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(230,230,240,0.66);
+    }
+
+    .metric-select {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px 34px 10px 11px;
+      color: rgba(250,250,255,0.96);
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.18);
+      border-radius: 10px;
+      outline: none;
+      font-size: 13px;
+      cursor: pointer;
+    }
+
+    .metric-select option,
+    .metric-select optgroup {
+      color: #111827;
+      background: #ffffff;
+    }
+
+    .legend-scale-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 7px 0 8px 0;
+    }
+
+    .legend-scale-label {
+      min-width: 42px;
+      font-size: 12px;
+      opacity: 0.9;
+    }
+
+    .legend-scale-label:last-child {
+      text-align: right;
+    }
+
+    .legend-gradient {
+      height: 10px;
+      flex: 1 1 auto;
+      border-radius: 6px;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.18);
+    }
+
+    .legend-range-note {
+      opacity: 0.72;
+      font-size: 11px;
+      line-height: 1.45;
+    }
+
+    .event-box {
+      margin: 0;
+      padding: 14px;
+      border-radius: 14px;
+      color: rgba(245,245,250,0.92);
+      background: rgba(255,255,255,0.07);
+      border-left: 3px solid rgba(77, 208, 225, 0.75);
+      font-size: 14px;
+      line-height: 1.55;
+      white-space: pre-wrap;
+    }
+
+
+    .load-status {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      z-index: 5;
+      transform: translate(-50%, -50%);
+      max-width: min(560px, calc(100vw - 40px));
+      box-sizing: border-box;
+      padding: 14px 18px;
+      color: rgba(250,250,255,0.96);
+      background: rgba(10,14,24,0.88);
+      border: 1px solid rgba(255,255,255,0.16);
+      border-radius: 14px;
+      text-align: center;
+      line-height: 1.5;
+      box-shadow: 0 14px 42px rgba(0,0,0,0.3);
+    }
+
+    .load-status[data-state="hidden"] {
+      display: none;
+    }
+
+    .load-status[data-state="error"] {
+      border-color: rgba(255,110,110,0.62);
+    }
+
+    .repo-link {
+      display: none;
+      margin-top: 8px;
+      color: rgba(255,255,255,0.86);
+      font-size: 12px;
+      text-decoration: none;
+      pointer-events: auto;
+    }
+
+    .repo-link:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    .data-quality {
+      margin-top: 10px;
+      color: rgba(235,235,245,0.58);
+      font-size: 11px;
+      line-height: 1.45;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="demo-title">
+    <h1>Biometric Geo-Visualization</h1>
+    <h3>Explore physiological metrics, recorded events, street images, and audio spectrograms along the route.</h3>
+    <a class="repo-link" id="repo-link" href="#" target="_blank" rel="noopener">View source repository</a>
+  </div>
+
+  <div id="map"></div>
+  <div class="load-status" id="load-status" data-state="loading" role="status" aria-live="polite">
+    Loading geographic and biometric records…
+  </div>
+
+  <div class="legend" id="legend">
+    <div class="metric-control">
+      <label for="metric-select">Visualized physiological data</label>
+      <select class="metric-select" id="metric-select">
+        <optgroup label="Cardiovascular and body">
+          <option value="heart_rate" selected>Heart Rate</option>
+          <option value="rr">RR Interval</option>
+          <option value="temperature">Temperature</option>
+        </optgroup>
+        <optgroup label="Cognitive indicators">
+          <option value="attention">Attention</option>
+          <option value="relaxation">Relaxation</option>
+          <option value="sync_rate">Sync Rate</option>
+          <option value="mental_effort">Mental Effort</option>
+          <option value="familiarity">Familiarity</option>
+        </optgroup>
+        <optgroup label="EEG combined bands">
+          <option value="alpha">Alpha Power</option>
+          <option value="beta">Beta Power</option>
+          <option value="gamma">Gamma Power</option>
+          <option value="delta">Delta Power</option>
+          <option value="theta">Theta Power</option>
+        </optgroup>
+        <optgroup label="EEG sub-bands">
+          <option value="low_alpha">Low Alpha</option>
+          <option value="high_alpha">High Alpha</option>
+          <option value="low_beta">Low Beta</option>
+          <option value="high_beta">High Beta</option>
+          <option value="low_gamma">Low Gamma</option>
+          <option value="mid_gamma">Mid Gamma</option>
+        </optgroup>
+        <optgroup label="Head orientation">
+          <option value="pitch">Pitch</option>
+          <option value="yaw">Yaw</option>
+          <option value="roll">Roll</option>
+        </optgroup>
+      </select>
+    </div>
+    <div class="legend-title" id="legend-title">Heart Rate (bpm)</div>
+    <div class="legend-scale-row">
+      <div class="legend-scale-label" id="legend-min">--</div>
+      <div class="legend-gradient" id="legend-gradient"></div>
+      <div class="legend-scale-label" id="legend-max">--</div>
+    </div>
+    <div class="legend-range-note" id="legend-range-note">Color and height use a robust display range.</div>
+    <div class="note">Tip: changing the selector updates every pillar. Click a pillar to highlight it.</div>
+  </div>
+
+  <aside class="info-panel" id="info-panel">
+    <div class="panel-kicker">Selected Record</div>
+    <h2 class="panel-title" id="panel-title">No pillar selected</h2>
+    <p class="panel-empty" id="panel-empty">
+      Please click one 3D pillar on the map. The selected physiological value, recorded event, timestamp-matched image, time, and coordinate will be shown here.
+    </p>
+
+    <div id="panel-content" style="display:none;">
+      <div class="value-card">
+        <div>
+          <div class="value-label" id="panel-value-label">Heart Rate</div>
+          <div class="value-number" id="panel-value">--</div>
+        </div>
+        <div class="value-label" id="panel-unit">value</div>
+      </div>
+
+      <div class="media-label">Street View Image</div>
+      <img class="street-image" id="panel-image" alt="Selected street view image" />
+      <div class="no-media" id="panel-image-empty">No corresponding image was found for this timestamp.</div>
+
+      <div class="media-label">Spectrogram</div>
+      <img class="street-image" id="panel-spectrogram" alt="Selected audio spectrogram" />
+      <div class="no-media" id="panel-spectrogram-empty">No corresponding spectrogram was found for this timestamp.</div>
+
+      <div class="media-label">Recorded Event</div>
+      <p class="event-box" id="panel-event">No recorded event at this point.</p>
+
+      <div id="panel-audio-section" style="display:none;">
+        <div class="media-label">Street Audio</div>
+        <audio class="street-audio" id="panel-audio" controls></audio>
+      </div>
+
+      <div class="meta-grid">
+        <div class="meta-item">Time<b id="panel-time">--</b></div>
+        <div class="meta-item">Coordinate<b id="panel-coord">--</b></div>
+      </div>
+      <div class="data-quality" id="panel-quality"></div>
+    </div>
+  </aside>
+
+<script>
+  const APP_CONFIG = window.APP_CONFIG || {};
+  mapboxgl.accessToken = APP_CONFIG.MAPBOX_ACCESS_TOKEN || "";
+  const GEOJSON_URL =
+    APP_CONFIG.GEOJSON_URL || "./data/biometric_multi_metric_with_spectrogram.geojson";
+
+  const pillarRadiusMeters = 2;
+  const extrusionOpacity = 0.86;
+
+  const BATCH_SIZE = 3;
+  const STEP_DELAY = 70;
+  const GROW_DURATION = 700;
+  const MIN_HEIGHT = 2;
+  const MAX_HEIGHT = 50;
+
+  const initialView = {
+    center: [113.999715, 22.597309],
+    zoom: 15,
+    pitch: 55,
+    bearing: 20
+  };
+
+  const METRICS = {
+    heart_rate: { label: "Heart Rate", unit: "bpm", decimals: 0 },
+    rr: { label: "RR Interval", unit: "ms", decimals: 1 },
+    temperature: { label: "Temperature", unit: "°C", decimals: 1 },
+    attention: { label: "Attention", unit: "score", decimals: 0 },
+    relaxation: { label: "Relaxation", unit: "score", decimals: 0 },
+    sync_rate: { label: "Sync Rate", unit: "%", decimals: 0 },
+    mental_effort: { label: "Mental Effort", unit: "score", decimals: 0 },
+    familiarity: { label: "Familiarity", unit: "score", decimals: 0 },
+    alpha: { label: "Alpha Power", unit: "power", decimals: 0 },
+    beta: { label: "Beta Power", unit: "power", decimals: 0 },
+    gamma: { label: "Gamma Power", unit: "power", decimals: 0 },
+    delta: { label: "Delta Power", unit: "power", decimals: 0 },
+    theta: { label: "Theta Power", unit: "power", decimals: 0 },
+    low_alpha: { label: "Low Alpha", unit: "power", decimals: 0 },
+    high_alpha: { label: "High Alpha", unit: "power", decimals: 0 },
+    low_beta: { label: "Low Beta", unit: "power", decimals: 0 },
+    high_beta: { label: "High Beta", unit: "power", decimals: 0 },
+    low_gamma: { label: "Low Gamma", unit: "power", decimals: 0 },
+    mid_gamma: { label: "Mid Gamma", unit: "power", decimals: 0 },
+    pitch: { label: "Pitch", unit: "°", decimals: 0 },
+    yaw: { label: "Yaw", unit: "°", decimals: 0 },
+    roll: { label: "Roll", unit: "°", decimals: 0 }
+  };
+
+  const rainbowStops = [
+    [0.00, "#2E86FF"],
+    [0.20, "#00C2FF"],
+    [0.40, "#00E676"],
+    [0.60, "#FFEB3B"],
+    [0.80, "#FF9800"],
+    [1.00, "#FF1744"]
+  ];
+
+
+  function setStatus(message, state = "loading") {
+    const status = document.getElementById("load-status");
+    if (!status) return;
+    status.textContent = message || "";
+    status.dataset.state = state;
+  }
+
+  const repositoryUrl = APP_CONFIG.REPOSITORY_URL || "";
+  if (repositoryUrl) {
+    const repoLink = document.getElementById("repo-link");
+    repoLink.href = repositoryUrl;
+    repoLink.style.display = "inline-block";
+  }
+
+  const R = 6378137;
+  let selectedFeatureId = null;
+  let selectedFeature = null;
+  let currentMetric = "heart_rate";
+  let pillarData = null;
+
+  function lonLatToMeters(lng, lat) {
+    const x = R * (lng * Math.PI / 180);
+    const y = R * Math.log(Math.tan(Math.PI / 4 + (lat * Math.PI / 360)));
+    return [x, y];
+  }
+
+  function metersToLonLat(x, y) {
+    const lng = (x / R) * 180 / Math.PI;
+    const lat = (2 * Math.atan(Math.exp(y / R)) - Math.PI / 2) * 180 / Math.PI;
+    return [lng, lat];
+  }
+
+  function firstAvailable(p, keys, fallback = "") {
+    for (const key of keys) {
+      if (p[key] !== undefined && p[key] !== null && String(p[key]).trim() !== "") {
+        return String(p[key]);
+      }
+    }
+    return fallback;
+  }
+
+  function getMetricValue(feature, metricKey = currentMetric) {
+    const p = feature && feature.properties ? feature.properties : {};
+    const value = Number(p[metricKey]);
+    return Number.isFinite(value) ? value : null;
+  }
+
+  function formatNumber(value, decimals = 0) {
+    if (!Number.isFinite(value)) return "--";
+    return value.toLocaleString(undefined, {
+      minimumFractionDigits: decimals,
+      maximumFractionDigits: decimals
+    });
+  }
+
+  function circlePolygon(lngLat, radiusMeters = 8, steps = 24) {
+    const [lng, lat] = lngLat;
+    const [cx, cy] = lonLatToMeters(lng, lat);
+    const coords = [];
+
+    for (let i = 0; i <= steps; i++) {
+      const a = (i / steps) * Math.PI * 2;
+      const x = cx + radiusMeters * Math.cos(a);
+      const y = cy + radiusMeters * Math.sin(a);
+      coords.push(metersToLonLat(x, y));
+    }
+    return coords;
+  }
+
+  function buildPillarsFromPoints(pointsGeoJSON, radiusMeters) {
+    const out = [];
+    const feats = pointsGeoJSON && pointsGeoJSON.features ? pointsGeoJSON.features : [];
+
+    for (let i = 0; i < feats.length; i++) {
+      const f = feats[i];
+      if (!f || !f.geometry || f.geometry.type !== "Point") continue;
+
+      const coords = circlePolygon(f.geometry.coordinates, radiusMeters, 24);
+      out.push({
+        type: "Feature",
+        id: i,
+        properties: {
+          seq: i,
+          lng: f.geometry.coordinates[0],
+          lat: f.geometry.coordinates[1],
+          ...(f.properties || {})
+        },
+        geometry: {
+          type: "Polygon",
+          coordinates: [coords]
+        }
+      });
+    }
+
+    return { type: "FeatureCollection", features: out };
+  }
+
+  function percentile(sortedValues, percentileValue) {
+    if (!sortedValues.length) return 0;
+    const index = (sortedValues.length - 1) * percentileValue;
+    const lower = Math.floor(index);
+    const upper = Math.ceil(index);
+    const weight = index - lower;
+    if (lower === upper) return sortedValues[lower];
+    return sortedValues[lower] * (1 - weight) + sortedValues[upper] * weight;
+  }
+
+  function getRobustRange(metricKey) {
+    const values = pillarData.features
+      .map(feature => getMetricValue(feature, metricKey))
+      .filter(value => Number.isFinite(value))
+      .sort((a, b) => a - b);
+
+    if (!values.length) return { min: 0, max: 1, rawMin: 0, rawMax: 1 };
+
+    const rawMin = values[0];
+    const rawMax = values[values.length - 1];
+    let min = values.length >= 20 ? percentile(values, 0.05) : rawMin;
+    let max = values.length >= 20 ? percentile(values, 0.95) : rawMax;
+
+    if (min === max) {
+      const padding = Math.abs(min) > 0 ? Math.abs(min) * 0.05 : 1;
+      min -= padding;
+      max += padding;
+    }
+
+    return { min, max, rawMin, rawMax };
+  }
+
+  function updateLegend(metricKey, range) {
+    const config = METRICS[metricKey];
+    document.getElementById("legend-title").textContent = `${config.label} (${config.unit})`;
+    document.getElementById("legend-min").textContent = formatNumber(range.min, config.decimals);
+    document.getElementById("legend-max").textContent = formatNumber(range.max, config.decimals);
+    document.getElementById("legend-gradient").style.background =
+      `linear-gradient(90deg, ${rainbowStops.map(([t, color]) => `${color} ${Math.round(t * 100)}%`).join(", ")})`;
+
+    const clipped = range.min > range.rawMin || range.max < range.rawMax;
+    document.getElementById("legend-range-note").textContent = clipped
+      ? "Color and height use the 5th–95th percentile range; extreme values are visually clipped, but their true values remain in the panel."
+      : "Color and height use the full observed range.";
+  }
+
+  function buildColorExpression(metricKey, minValue, maxValue) {
+    const colorExpression = [
+      "interpolate", ["linear"], ["get", metricKey],
+      ...rainbowStops.flatMap(([t, color]) => [minValue + (maxValue - minValue) * t, color])
+    ];
+
+    return [
+      "case",
+      ["boolean", ["feature-state", "selected"], false],
+      "#FFFFFF",
+      colorExpression
+    ];
+  }
+
+  function buildHeightExpression(metricKey, minValue, maxValue) {
+    const targetHeight = [
+      "interpolate", ["linear"], ["get", metricKey],
+      minValue, MIN_HEIGHT,
+      maxValue, MAX_HEIGHT
+    ];
+
+    return [
+      "case",
+      ["boolean", ["feature-state", "visible"], false],
+      targetHeight,
+      0
+    ];
+  }
+
+  function applyMetricVisualization(metricKey) {
+    if (!METRICS[metricKey]) return;
+    currentMetric = metricKey;
+    if (!pillarData || !map.getLayer("pillar-extrusion")) return;
+    const range = getRobustRange(metricKey);
+    const selectedColor = buildColorExpression(metricKey, range.min, range.max);
+    const heightExpression = buildHeightExpression(metricKey, range.min, range.max);
+
+    map.setPaintProperty("pillar-base", "fill-color", selectedColor);
+    map.setPaintProperty("pillar-extrusion", "fill-extrusion-color", selectedColor);
+    map.setPaintProperty("pillar-extrusion", "fill-extrusion-height", heightExpression);
+    updateLegend(metricKey, range);
+
+    if (selectedFeature) updateInfoPanel(selectedFeature);
+  }
+
+  function highlightSelectedPillar(id) {
+    if (selectedFeatureId !== null) {
+      map.setFeatureState(
+        { source: "pillars", id: selectedFeatureId },
+        { selected: false }
+      );
+    }
+
+    selectedFeatureId = id;
+    map.setFeatureState(
+      { source: "pillars", id },
+      { selected: true }
+    );
+  }
+
+  function updateInfoPanel(feature) {
+    const p = feature.properties || {};
+    const config = METRICS[currentMetric];
+    const metricValue = getMetricValue(feature, currentMetric);
+
+    const imageUrl = firstAvailable(p, ["image", "imageUrl", "image_url", "streetImage", "street_image", "photo", "photo_url"]);
+    const spectrogramUrl = firstAvailable(p, ["spectrogram", "spectrogramUrl", "spectrogram_url"], "");
+    const eventMark = firstAvailable(p, ["event_mark", "Mark", "mark"], "No recorded event at this time.");
+    const audioUrl = firstAvailable(p, ["audio", "audioUrl", "audio_url", "streetAudio", "street_audio", "sound", "sound_url"]);
+    const timestamp = firstAvailable(p, ["timestamp", "time"], "");
+    const panelTitle = timestamp ? `Recorded ${timestamp}` : "Selected Record";
+
+    const lng = Number(p.lng);
+    const lat = Number(p.lat);
+    const coordText = Number.isFinite(lng) && Number.isFinite(lat)
+      ? `${lng.toFixed(5)}, ${lat.toFixed(5)}`
+      : "--";
+
+    document.getElementById("panel-empty").style.display = "none";
+    document.getElementById("panel-content").style.display = "block";
+
+    document.getElementById("panel-title").textContent = panelTitle;
+    document.getElementById("panel-value-label").textContent = config.label;
+    document.getElementById("panel-value").textContent = formatNumber(metricValue, config.decimals);
+    document.getElementById("panel-unit").textContent = config.unit;
+    document.getElementById("panel-event").textContent = eventMark;
+    document.getElementById("panel-time").textContent = timestamp || "--";
+    document.getElementById("panel-coord").textContent = coordText;
+
+    const interpolated = firstAvailable(p, ["interpolated_fields"], "");
+    document.getElementById("panel-quality").textContent = interpolated
+      ? `Interpolated source fields: ${interpolated.replace(/familarity/g, "familiarity")}.`
+      : "All displayed fields use recorded values.";
+
+    const img = document.getElementById("panel-image");
+    const imgEmpty = document.getElementById("panel-image-empty");
+
+    function showMissingImage(message = "No corresponding image was found for this timestamp.") {
+      img.removeAttribute("src");
+      img.style.display = "none";
+      imgEmpty.textContent = message;
+      imgEmpty.style.display = "block";
+    }
+
+    if (imageUrl) {
+      img.onload = () => {
+        img.style.display = "block";
+        imgEmpty.style.display = "none";
+      };
+      img.onerror = () => {
+        showMissingImage();
+      };
+      img.style.display = "none";
+      imgEmpty.style.display = "none";
+      img.src = imageUrl;
+    } else {
+      showMissingImage();
+    }
+
+    const specImg = document.getElementById("panel-spectrogram");
+    const specEmpty = document.getElementById("panel-spectrogram-empty");
+
+    function showMissingSpectrogram() {
+      specImg.removeAttribute("src");
+      specImg.style.display = "none";
+      specEmpty.style.display = "block";
+    }
+
+    if (spectrogramUrl) {
+      specImg.onload = () => {
+        specImg.style.display = "block";
+        specEmpty.style.display = "none";
+      };
+      specImg.onerror = () => {
+        showMissingSpectrogram();
+      };
+      specImg.style.display = "none";
+      specEmpty.style.display = "none";
+      specImg.src = spectrogramUrl;
+    } else {
+      showMissingSpectrogram();
+    }
+
+    const audioSection = document.getElementById("panel-audio-section");
+    const audio = document.getElementById("panel-audio");
+    if (audioUrl) {
+      audio.src = audioUrl;
+      audio.style.display = "block";
+      audioSection.style.display = "block";
+    } else {
+      audio.pause();
+      audio.removeAttribute("src");
+      audio.load();
+      audio.style.display = "none";
+      audioSection.style.display = "none";
+    }
+  }
+
+  const map = new mapboxgl.Map({
+    container: "map",
+    style: "mapbox://styles/mapbox/light-v11",
+    center: initialView.center,
+    zoom: initialView.zoom,
+    pitch: initialView.pitch,
+    bearing: initialView.bearing,
+    antialias: true
+  });
+
+  map.addControl(new mapboxgl.NavigationControl({ visualizePitch: true }), "bottom-right");
+
+  async function loadAndRender() {
+    setStatus("Loading geographic and biometric records…", "loading");
+    const separator = GEOJSON_URL.includes("?") ? "&" : "?";
+    const dataUrl = `${GEOJSON_URL}${separator}v=${Date.now()}`;
+    const resp = await fetch(dataUrl, { cache: "no-store" });
+    if (!resp.ok) {
+      throw new Error(`Failed to load ${GEOJSON_URL} (${resp.status}). Serve the repository through GitHub Pages or a local HTTP server; opening index.html directly with file:// is not supported.`);
+    }
+
+    const points = await resp.json();
+
+    const bounds = new mapboxgl.LngLatBounds();
+    for (const feature of points.features || []) {
+      if (feature?.geometry?.type === "Point") {
+        bounds.extend(feature.geometry.coordinates);
+      }
+    }
+
+    if (!bounds.isEmpty()) {
+      const mobile = window.innerWidth <= 760;
+      map.fitBounds(bounds, {
+        padding: mobile
+          ? { top: 90, right: 36, bottom: 260, left: 36 }
+          : { top: 95, right: 390, bottom: 95, left: 90 },
+        maxZoom: 17,
+        duration: 900
+      });
+    }
+
+    pillarData = buildPillarsFromPoints(points, pillarRadiusMeters);
+    const initialRange = getRobustRange(currentMetric);
+    const initialColor = buildColorExpression(currentMetric, initialRange.min, initialRange.max);
+    const initialHeight = buildHeightExpression(currentMetric, initialRange.min, initialRange.max);
+
+    updateLegend(currentMetric, initialRange);
+
+    map.addSource("pillars", {
+      type: "geojson",
+      data: pillarData,
+      promoteId: "seq"
+    });
+
+    map.addLayer({
+      id: "pillar-base",
+      type: "fill",
+      source: "pillars",
+      paint: {
+        "fill-color": initialColor,
+        "fill-opacity": [
+          "case",
+          ["boolean", ["feature-state", "selected"], false],
+          0.42,
+          0.18
+        ]
+      }
+    });
+
+    map.addLayer({
+      id: "pillar-extrusion",
+      type: "fill-extrusion",
+      source: "pillars",
+      paint: {
+        "fill-extrusion-color": initialColor,
+        "fill-extrusion-height": initialHeight,
+        "fill-extrusion-base": 0,
+        "fill-extrusion-opacity": extrusionOpacity,
+        "fill-extrusion-height-transition": {
+          duration: GROW_DURATION,
+          delay: 0
+        },
+        "fill-extrusion-color-transition": {
+          duration: 240,
+          delay: 0
+        }
+      }
+    });
+
+    map.on("mousemove", "pillar-extrusion", (event) => {
+      map.getCanvas().style.cursor = event.features && event.features.length ? "pointer" : "";
+    });
+
+    map.on("mouseleave", "pillar-extrusion", () => {
+      map.getCanvas().style.cursor = "";
+    });
+
+    map.on("click", "pillar-extrusion", (event) => {
+      const feature = event.features && event.features[0];
+      if (!feature) return;
+      selectedFeature = feature;
+      highlightSelectedPillar(feature.id);
+      updateInfoPanel(feature);
+    });
+
+    const layers = map.getStyle().layers || [];
+    let labelLayerId = null;
+    for (const layer of layers) {
+      if (layer.type === "symbol" && layer.layout && layer.layout["text-field"]) {
+        labelLayerId = layer.id;
+        break;
+      }
+    }
+
+    if (!map.getLayer("3d-buildings")) {
+      map.addLayer(
+        {
+          id: "3d-buildings",
+          source: "composite",
+          "source-layer": "building",
+          filter: ["==", "extrude", "true"],
+          type: "fill-extrusion",
+          minzoom: 15,
+          paint: {
+            "fill-extrusion-height": ["coalesce", ["get", "height"], 8],
+            "fill-extrusion-base": ["coalesce", ["get", "min_height"], 0],
+            "fill-extrusion-opacity": 0.75
+          }
+        },
+        labelLayerId
+      );
+    }
+
+    for (const feature of pillarData.features) {
+      map.setFeatureState(
+        { source: "pillars", id: feature.properties.seq },
+        { visible: false, selected: false }
+      );
+    }
+
+    setStatus(
+      `Loaded ${pillarData.features.length} records. Click a pillar to inspect details.`,
+      "loading"
+    );
+    window.setTimeout(() => setStatus("", "hidden"), 1400);
+
+    let index = 0;
+    const timer = setInterval(() => {
+      const end = Math.min(index + BATCH_SIZE, pillarData.features.length);
+      for (let i = index; i < end; i++) {
+        const feature = pillarData.features[i];
+        map.setFeatureState(
+          { source: "pillars", id: feature.properties.seq },
+          { visible: true }
+        );
+      }
+      index = end;
+      if (index >= pillarData.features.length) clearInterval(timer);
+    }, STEP_DELAY);
+  }
+
+  document.getElementById("metric-select").addEventListener("change", (event) => {
+    applyMetricVisualization(event.target.value);
+  });
+
+  map.on("load", () => {
+    loadAndRender().catch(error => {
+      console.error(error);
+      setStatus(`Unable to load the demo: ${error.message}`, "error");
+    });
+  });
+</script>
+</body>
+</html>
