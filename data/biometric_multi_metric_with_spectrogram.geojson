@@ -118,7 +118,7 @@
       "street_images": "extracted_frames/",
       "spectrograms": "spectrogram/"
     },
-    "spectrogram_mapping": "Spectrograms use repository-relative paths in the form spectrogram/YYYY-MM-DD_HH-MM-SS.png.",
+    "spectrogram_mapping": "Spectrograms use repository-relative paths in the form spectrogram/YYYY-MM-DD_HH-MM-SS.jpg.",
     "publication_note": "Prepared as a static GitHub Pages demonstration."
   },
   "features": [
@@ -158,7 +158,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_12-56-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-56-16.png",
+        "spectrogram": "spectrogram/2026-07-17_12-56-16.jpg",
         "familiarity": -10.0,
         "record_id": "record-0001"
       },
@@ -206,7 +206,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-56-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-56-21.png",
+        "spectrogram": "spectrogram/2026-07-17_12-56-21.jpg",
         "familiarity": 15.0,
         "record_id": "record-0002"
       },
@@ -254,7 +254,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-56-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-56-26.png",
+        "spectrogram": "spectrogram/2026-07-17_12-56-26.jpg",
         "familiarity": -9.0,
         "record_id": "record-0003"
       },
@@ -302,7 +302,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-56-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-56-31.png",
+        "spectrogram": "spectrogram/2026-07-17_12-56-31.jpg",
         "familiarity": 4.0,
         "record_id": "record-0004"
       },
@@ -350,7 +350,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-56-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-56-36.png",
+        "spectrogram": "spectrogram/2026-07-17_12-56-36.jpg",
         "familiarity": 12.0,
         "record_id": "record-0005"
       },
@@ -398,7 +398,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-56-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-56-41.png",
+        "spectrogram": "spectrogram/2026-07-17_12-56-41.jpg",
         "familiarity": -37.0,
         "record_id": "record-0006"
       },
@@ -446,7 +446,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-56-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-56-46.png",
+        "spectrogram": "spectrogram/2026-07-17_12-56-46.jpg",
         "familiarity": 22.0,
         "record_id": "record-0007"
       },
@@ -494,7 +494,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-56-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-56-51.png",
+        "spectrogram": "spectrogram/2026-07-17_12-56-51.jpg",
         "familiarity": 16.0,
         "record_id": "record-0008"
       },
@@ -542,7 +542,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-56-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-56-56.png",
+        "spectrogram": "spectrogram/2026-07-17_12-56-56.jpg",
         "familiarity": 7.0,
         "record_id": "record-0009"
       },
@@ -590,7 +590,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-57-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-57-01.png",
+        "spectrogram": "spectrogram/2026-07-17_12-57-01.jpg",
         "familiarity": 11.0,
         "record_id": "record-0010"
       },
@@ -638,7 +638,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-57-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-57-06.png",
+        "spectrogram": "spectrogram/2026-07-17_12-57-06.jpg",
         "familiarity": 19.0,
         "record_id": "record-0011"
       },
@@ -686,7 +686,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-57-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-57-11.png",
+        "spectrogram": "spectrogram/2026-07-17_12-57-11.jpg",
         "familiarity": 6.0,
         "record_id": "record-0012"
       },
@@ -734,7 +734,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-57-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-57-16.png",
+        "spectrogram": "spectrogram/2026-07-17_12-57-16.jpg",
         "familiarity": -12.0,
         "record_id": "record-0013"
       },
@@ -782,7 +782,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_12-57-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-57-21.png",
+        "spectrogram": "spectrogram/2026-07-17_12-57-21.jpg",
         "familiarity": 15.0,
         "record_id": "record-0014"
       },
@@ -830,7 +830,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-57-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-57-26.png",
+        "spectrogram": "spectrogram/2026-07-17_12-57-26.jpg",
         "familiarity": -12.0,
         "record_id": "record-0015"
       },
@@ -878,7 +878,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-57-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-57-31.png",
+        "spectrogram": "spectrogram/2026-07-17_12-57-31.jpg",
         "familiarity": -2.0,
         "record_id": "record-0016"
       },
@@ -926,7 +926,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-57-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-57-36.png",
+        "spectrogram": "spectrogram/2026-07-17_12-57-36.jpg",
         "familiarity": -9.0,
         "record_id": "record-0017"
       },
@@ -974,7 +974,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-57-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-57-41.png",
+        "spectrogram": "spectrogram/2026-07-17_12-57-41.jpg",
         "familiarity": 18.0,
         "record_id": "record-0018"
       },
@@ -1022,7 +1022,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-57-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-57-46.png",
+        "spectrogram": "spectrogram/2026-07-17_12-57-46.jpg",
         "familiarity": 7.0,
         "record_id": "record-0019"
       },
@@ -1070,7 +1070,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_12-57-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-57-51.png",
+        "spectrogram": "spectrogram/2026-07-17_12-57-51.jpg",
         "familiarity": -1.0,
         "record_id": "record-0020"
       },
@@ -1118,7 +1118,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-57-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-57-56.png",
+        "spectrogram": "spectrogram/2026-07-17_12-57-56.jpg",
         "familiarity": 15.0,
         "record_id": "record-0021"
       },
@@ -1166,7 +1166,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-58-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-58-01.png",
+        "spectrogram": "spectrogram/2026-07-17_12-58-01.jpg",
         "familiarity": -16.0,
         "record_id": "record-0022"
       },
@@ -1214,7 +1214,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_12-58-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-58-06.png",
+        "spectrogram": "spectrogram/2026-07-17_12-58-06.jpg",
         "familiarity": -12.0,
         "record_id": "record-0023"
       },
@@ -1262,7 +1262,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-58-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-58-11.png",
+        "spectrogram": "spectrogram/2026-07-17_12-58-11.jpg",
         "familiarity": 7.0,
         "record_id": "record-0024"
       },
@@ -1310,7 +1310,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-58-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-58-16.png",
+        "spectrogram": "spectrogram/2026-07-17_12-58-16.jpg",
         "familiarity": -11.0,
         "record_id": "record-0025"
       },
@@ -1358,7 +1358,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-58-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-58-21.png",
+        "spectrogram": "spectrogram/2026-07-17_12-58-21.jpg",
         "familiarity": 7.0,
         "record_id": "record-0026"
       },
@@ -1406,7 +1406,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-58-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-58-26.png",
+        "spectrogram": "spectrogram/2026-07-17_12-58-26.jpg",
         "familiarity": -2.0,
         "record_id": "record-0027"
       },
@@ -1454,7 +1454,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-58-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-58-31.png",
+        "spectrogram": "spectrogram/2026-07-17_12-58-31.jpg",
         "familiarity": 3.0,
         "record_id": "record-0028"
       },
@@ -1502,7 +1502,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-58-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-58-36.png",
+        "spectrogram": "spectrogram/2026-07-17_12-58-36.jpg",
         "familiarity": 14.0,
         "record_id": "record-0029"
       },
@@ -1550,7 +1550,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-58-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-58-41.png",
+        "spectrogram": "spectrogram/2026-07-17_12-58-41.jpg",
         "familiarity": 0.0,
         "record_id": "record-0030"
       },
@@ -1598,7 +1598,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-58-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-58-46.png",
+        "spectrogram": "spectrogram/2026-07-17_12-58-46.jpg",
         "familiarity": 1.0,
         "record_id": "record-0031"
       },
@@ -1646,7 +1646,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-58-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-58-51.png",
+        "spectrogram": "spectrogram/2026-07-17_12-58-51.jpg",
         "familiarity": -23.0,
         "record_id": "record-0032"
       },
@@ -1694,7 +1694,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-58-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-58-56.png",
+        "spectrogram": "spectrogram/2026-07-17_12-58-56.jpg",
         "familiarity": 8.0,
         "record_id": "record-0033"
       },
@@ -1742,7 +1742,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-59-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-59-01.png",
+        "spectrogram": "spectrogram/2026-07-17_12-59-01.jpg",
         "familiarity": 9.0,
         "record_id": "record-0034"
       },
@@ -1790,7 +1790,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-59-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-59-06.png",
+        "spectrogram": "spectrogram/2026-07-17_12-59-06.jpg",
         "familiarity": 10.0,
         "record_id": "record-0035"
       },
@@ -1838,7 +1838,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-59-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-59-11.png",
+        "spectrogram": "spectrogram/2026-07-17_12-59-11.jpg",
         "familiarity": 15.0,
         "record_id": "record-0036"
       },
@@ -1886,7 +1886,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_12-59-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-59-16.png",
+        "spectrogram": "spectrogram/2026-07-17_12-59-16.jpg",
         "familiarity": -27.0,
         "record_id": "record-0037"
       },
@@ -1934,7 +1934,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-59-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-59-21.png",
+        "spectrogram": "spectrogram/2026-07-17_12-59-21.jpg",
         "familiarity": 6.0,
         "record_id": "record-0038"
       },
@@ -1982,7 +1982,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-59-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-59-26.png",
+        "spectrogram": "spectrogram/2026-07-17_12-59-26.jpg",
         "familiarity": -14.0,
         "record_id": "record-0039"
       },
@@ -2030,7 +2030,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-59-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-59-31.png",
+        "spectrogram": "spectrogram/2026-07-17_12-59-31.jpg",
         "familiarity": 17.0,
         "record_id": "record-0040"
       },
@@ -2078,7 +2078,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-59-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-59-36.png",
+        "spectrogram": "spectrogram/2026-07-17_12-59-36.jpg",
         "familiarity": -1.0,
         "record_id": "record-0041"
       },
@@ -2126,7 +2126,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-59-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-59-41.png",
+        "spectrogram": "spectrogram/2026-07-17_12-59-41.jpg",
         "familiarity": 1.0,
         "record_id": "record-0042"
       },
@@ -2174,7 +2174,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-59-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-59-46.png",
+        "spectrogram": "spectrogram/2026-07-17_12-59-46.jpg",
         "familiarity": -25.0,
         "record_id": "record-0043"
       },
@@ -2222,7 +2222,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-59-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-59-51.png",
+        "spectrogram": "spectrogram/2026-07-17_12-59-51.jpg",
         "familiarity": 2.0,
         "record_id": "record-0044"
       },
@@ -2270,7 +2270,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_12-59-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-59-56.png",
+        "spectrogram": "spectrogram/2026-07-17_12-59-56.jpg",
         "familiarity": 15.0,
         "record_id": "record-0045"
       },
@@ -2318,7 +2318,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-00-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-00-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-00-01.jpg",
         "familiarity": 17.0,
         "record_id": "record-0046"
       },
@@ -2366,7 +2366,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-00-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-00-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-00-06.jpg",
         "familiarity": -14.0,
         "record_id": "record-0047"
       },
@@ -2414,7 +2414,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-00-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-00-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-00-11.jpg",
         "familiarity": -11.0,
         "record_id": "record-0048"
       },
@@ -2462,7 +2462,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-00-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-00-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-00-16.jpg",
         "familiarity": -11.0,
         "record_id": "record-0049"
       },
@@ -2510,7 +2510,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-00-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-00-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-00-21.jpg",
         "familiarity": -15.0,
         "record_id": "record-0050"
       },
@@ -2558,7 +2558,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-00-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-00-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-00-26.jpg",
         "familiarity": 22.0,
         "record_id": "record-0051"
       },
@@ -2606,7 +2606,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-00-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-00-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-00-31.jpg",
         "familiarity": 16.0,
         "record_id": "record-0052"
       },
@@ -2654,7 +2654,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-00-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-00-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-00-36.jpg",
         "familiarity": 10.0,
         "record_id": "record-0053"
       },
@@ -2702,7 +2702,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-00-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-00-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-00-41.jpg",
         "familiarity": 12.0,
         "record_id": "record-0054"
       },
@@ -2750,7 +2750,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-00-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-00-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-00-46.jpg",
         "familiarity": 13.0,
         "record_id": "record-0055"
       },
@@ -2798,7 +2798,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-00-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-00-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-00-51.jpg",
         "familiarity": 0.0,
         "record_id": "record-0056"
       },
@@ -2846,7 +2846,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-00-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-00-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-00-56.jpg",
         "familiarity": -4.0,
         "record_id": "record-0057"
       },
@@ -2894,7 +2894,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-01-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-01-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-01-01.jpg",
         "familiarity": -18.0,
         "record_id": "record-0058"
       },
@@ -2942,7 +2942,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-01-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-01-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-01-06.jpg",
         "familiarity": -9.0,
         "record_id": "record-0059"
       },
@@ -2990,7 +2990,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-01-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-01-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-01-11.jpg",
         "familiarity": 14.0,
         "record_id": "record-0060"
       },
@@ -3038,7 +3038,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-01-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-01-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-01-16.jpg",
         "familiarity": 7.0,
         "record_id": "record-0061"
       },
@@ -3086,7 +3086,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-01-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-01-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-01-21.jpg",
         "familiarity": 8.0,
         "record_id": "record-0062"
       },
@@ -3134,7 +3134,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-01-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-01-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-01-26.jpg",
         "familiarity": 2.0,
         "record_id": "record-0063"
       },
@@ -3182,7 +3182,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-01-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-01-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-01-31.jpg",
         "familiarity": -6.0,
         "record_id": "record-0064"
       },
@@ -3230,7 +3230,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-01-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-01-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-01-36.jpg",
         "familiarity": -10.0,
         "record_id": "record-0065"
       },
@@ -3278,7 +3278,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-01-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-01-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-01-41.jpg",
         "familiarity": 20.0,
         "record_id": "record-0066"
       },
@@ -3326,7 +3326,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-01-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-01-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-01-46.jpg",
         "familiarity": 10.0,
         "record_id": "record-0067"
       },
@@ -3374,7 +3374,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-01-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-01-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-01-51.jpg",
         "familiarity": 2.0,
         "record_id": "record-0068"
       },
@@ -3422,7 +3422,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-01-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-01-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-01-56.jpg",
         "familiarity": 0.0,
         "record_id": "record-0069"
       },
@@ -3470,7 +3470,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-02-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-02-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-02-01.jpg",
         "familiarity": 1.0,
         "record_id": "record-0070"
       },
@@ -3518,7 +3518,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-02-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-02-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-02-06.jpg",
         "familiarity": 6.0,
         "record_id": "record-0071"
       },
@@ -3566,7 +3566,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-02-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-02-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-02-11.jpg",
         "familiarity": 7.0,
         "record_id": "record-0072"
       },
@@ -3614,7 +3614,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-02-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-02-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-02-16.jpg",
         "familiarity": -2.0,
         "record_id": "record-0073"
       },
@@ -3662,7 +3662,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-02-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-02-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-02-21.jpg",
         "familiarity": 2.0,
         "record_id": "record-0074"
       },
@@ -3710,7 +3710,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-02-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-02-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-02-26.jpg",
         "familiarity": 9.0,
         "record_id": "record-0075"
       },
@@ -3758,7 +3758,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-02-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-02-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-02-31.jpg",
         "familiarity": 15.0,
         "record_id": "record-0076"
       },
@@ -3806,7 +3806,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-02-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-02-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-02-36.jpg",
         "familiarity": 15.0,
         "record_id": "record-0077"
       },
@@ -3854,7 +3854,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-02-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-02-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-02-41.jpg",
         "familiarity": -7.0,
         "record_id": "record-0078"
       },
@@ -3902,7 +3902,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-02-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-02-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-02-46.jpg",
         "familiarity": 5.0,
         "record_id": "record-0079"
       },
@@ -3950,7 +3950,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-02-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-02-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-02-51.jpg",
         "familiarity": 9.0,
         "record_id": "record-0080"
       },
@@ -3998,7 +3998,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-02-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-02-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-02-56.jpg",
         "familiarity": 3.0,
         "record_id": "record-0081"
       },
@@ -4046,7 +4046,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-03-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-03-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-03-01.jpg",
         "familiarity": -27.0,
         "record_id": "record-0082"
       },
@@ -4094,7 +4094,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-03-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-03-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-03-06.jpg",
         "familiarity": -8.0,
         "record_id": "record-0083"
       },
@@ -4142,7 +4142,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-03-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-03-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-03-11.jpg",
         "familiarity": 18.0,
         "record_id": "record-0084"
       },
@@ -4190,7 +4190,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-03-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-03-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-03-16.jpg",
         "familiarity": 18.0,
         "record_id": "record-0085"
       },
@@ -4238,7 +4238,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-03-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-03-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-03-21.jpg",
         "familiarity": 13.0,
         "record_id": "record-0086"
       },
@@ -4286,7 +4286,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-03-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-03-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-03-26.jpg",
         "familiarity": -2.0,
         "record_id": "record-0087"
       },
@@ -4334,7 +4334,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-03-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-03-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-03-31.jpg",
         "familiarity": -9.0,
         "record_id": "record-0088"
       },
@@ -4382,7 +4382,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, attention, relaxation, delta, theta, low_alpha, high_alpha, low_beta, high_beta, low_gamma, mid_gamma, pitch, yaw, roll, sync_rate, mental_effort, familarity, temperature, heart_rate",
         "image_expected_filename": "2026-07-17_13-03-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-03-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-03-36.jpg",
         "familiarity": 14.5,
         "record_id": "record-0089"
       },
@@ -4430,7 +4430,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-03-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-03-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-03-41.jpg",
         "familiarity": 11.0,
         "record_id": "record-0090"
       },
@@ -4478,7 +4478,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-03-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-03-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-03-46.jpg",
         "familiarity": 4.0,
         "record_id": "record-0091"
       },
@@ -4526,7 +4526,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-03-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-03-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-03-51.jpg",
         "familiarity": 5.0,
         "record_id": "record-0092"
       },
@@ -4574,7 +4574,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-03-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-03-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-03-56.jpg",
         "familiarity": 4.0,
         "record_id": "record-0093"
       },
@@ -4622,7 +4622,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-04-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-04-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-04-01.jpg",
         "familiarity": 16.0,
         "record_id": "record-0094"
       },
@@ -4670,7 +4670,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-04-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-04-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-04-06.jpg",
         "familiarity": -2.0,
         "record_id": "record-0095"
       },
@@ -4718,7 +4718,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-04-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-04-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-04-11.jpg",
         "familiarity": -4.0,
         "record_id": "record-0096"
       },
@@ -4766,7 +4766,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-04-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-04-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-04-16.jpg",
         "familiarity": 8.0,
         "record_id": "record-0097"
       },
@@ -4814,7 +4814,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-04-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-04-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-04-21.jpg",
         "familiarity": 7.0,
         "record_id": "record-0098"
       },
@@ -4862,7 +4862,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-04-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-04-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-04-26.jpg",
         "familiarity": 13.0,
         "record_id": "record-0099"
       },
@@ -4910,7 +4910,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-04-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-04-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-04-31.jpg",
         "familiarity": -30.0,
         "record_id": "record-0100"
       },
@@ -4958,7 +4958,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-04-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-04-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-04-36.jpg",
         "familiarity": 8.0,
         "record_id": "record-0101"
       },
@@ -5006,7 +5006,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-04-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-04-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-04-41.jpg",
         "familiarity": 7.0,
         "record_id": "record-0102"
       },
@@ -5054,7 +5054,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-04-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-04-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-04-46.jpg",
         "familiarity": -22.0,
         "record_id": "record-0103"
       },
@@ -5102,7 +5102,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-04-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-04-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-04-51.jpg",
         "familiarity": -17.0,
         "record_id": "record-0104"
       },
@@ -5150,7 +5150,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-04-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-04-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-04-56.jpg",
         "familiarity": -15.0,
         "record_id": "record-0105"
       },
@@ -5198,7 +5198,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-05-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-05-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-05-01.jpg",
         "familiarity": -4.0,
         "record_id": "record-0106"
       },
@@ -5246,7 +5246,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-05-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-05-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-05-06.jpg",
         "familiarity": 18.0,
         "record_id": "record-0107"
       },
@@ -5294,7 +5294,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-05-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-05-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-05-11.jpg",
         "familiarity": -28.0,
         "record_id": "record-0108"
       },
@@ -5342,7 +5342,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-05-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-05-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-05-16.jpg",
         "familiarity": -42.0,
         "record_id": "record-0109"
       },
@@ -5390,7 +5390,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-05-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-05-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-05-21.jpg",
         "familiarity": -2.0,
         "record_id": "record-0110"
       },
@@ -5438,7 +5438,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-05-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-05-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-05-26.jpg",
         "familiarity": 6.0,
         "record_id": "record-0111"
       },
@@ -5486,7 +5486,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-05-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-05-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-05-31.jpg",
         "familiarity": 22.0,
         "record_id": "record-0112"
       },
@@ -5534,7 +5534,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-05-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-05-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-05-36.jpg",
         "familiarity": 15.0,
         "record_id": "record-0113"
       },
@@ -5582,7 +5582,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-05-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-05-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-05-41.jpg",
         "familiarity": -6.0,
         "record_id": "record-0114"
       },
@@ -5630,7 +5630,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-05-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-05-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-05-46.jpg",
         "familiarity": 16.0,
         "record_id": "record-0115"
       },
@@ -5678,7 +5678,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-05-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-05-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-05-51.jpg",
         "familiarity": -3.0,
         "record_id": "record-0116"
       },
@@ -5726,7 +5726,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-05-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-05-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-05-56.jpg",
         "familiarity": 13.0,
         "record_id": "record-0117"
       },
@@ -5774,7 +5774,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-06-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-06-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-06-01.jpg",
         "familiarity": -14.0,
         "record_id": "record-0118"
       },
@@ -5822,7 +5822,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-06-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-06-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-06-06.jpg",
         "familiarity": 14.0,
         "record_id": "record-0119"
       },
@@ -5870,7 +5870,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-06-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-06-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-06-11.jpg",
         "familiarity": -9.0,
         "record_id": "record-0120"
       },
@@ -5918,7 +5918,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-06-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-06-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-06-16.jpg",
         "familiarity": 10.0,
         "record_id": "record-0121"
       },
@@ -5966,7 +5966,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-06-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-06-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-06-21.jpg",
         "familiarity": 7.0,
         "record_id": "record-0122"
       },
@@ -6014,7 +6014,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-06-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-06-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-06-26.jpg",
         "familiarity": 0.0,
         "record_id": "record-0123"
       },
@@ -6062,7 +6062,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-06-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-06-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-06-31.jpg",
         "familiarity": -18.0,
         "record_id": "record-0124"
       },
@@ -6110,7 +6110,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-06-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-06-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-06-36.jpg",
         "familiarity": -1.0,
         "record_id": "record-0125"
       },
@@ -6158,7 +6158,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-06-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-06-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-06-41.jpg",
         "familiarity": -1.0,
         "record_id": "record-0126"
       },
@@ -6206,7 +6206,7 @@
         "unit": "bpm",
         "interpolated_fields": "attention, relaxation, delta, theta, low_alpha, high_alpha, low_beta, high_beta, low_gamma, mid_gamma, pitch, yaw, roll, sync_rate, mental_effort, familarity, temperature, heart_rate",
         "image_expected_filename": "2026-07-17_13-06-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-06-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-06-46.jpg",
         "familiarity": -1.5,
         "record_id": "record-0127"
       },
@@ -6254,7 +6254,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-06-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-06-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-06-51.jpg",
         "familiarity": -21.0,
         "record_id": "record-0128"
       },
@@ -6302,7 +6302,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-06-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-06-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-06-56.jpg",
         "familiarity": 8.0,
         "record_id": "record-0129"
       },
@@ -6350,7 +6350,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-07-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-07-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-07-01.jpg",
         "familiarity": 1.0,
         "record_id": "record-0130"
       },
@@ -6398,7 +6398,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-07-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-07-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-07-06.jpg",
         "familiarity": -4.0,
         "record_id": "record-0131"
       },
@@ -6446,7 +6446,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-07-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-07-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-07-11.jpg",
         "familiarity": -2.0,
         "record_id": "record-0132"
       },
@@ -6494,7 +6494,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-07-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-07-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-07-16.jpg",
         "familiarity": -6.0,
         "record_id": "record-0133"
       },
@@ -6542,7 +6542,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-07-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-07-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-07-21.jpg",
         "familiarity": -3.0,
         "record_id": "record-0134"
       },
@@ -6590,7 +6590,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-07-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-07-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-07-26.jpg",
         "familiarity": 2.0,
         "record_id": "record-0135"
       },
@@ -6638,7 +6638,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-07-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-07-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-07-31.jpg",
         "familiarity": 20.0,
         "record_id": "record-0136"
       },
@@ -6686,7 +6686,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-07-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-07-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-07-36.jpg",
         "familiarity": 9.0,
         "record_id": "record-0137"
       },
@@ -6734,7 +6734,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-07-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-07-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-07-41.jpg",
         "familiarity": 10.0,
         "record_id": "record-0138"
       },
@@ -6782,7 +6782,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-07-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-07-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-07-46.jpg",
         "familiarity": 14.0,
         "record_id": "record-0139"
       },
@@ -6830,7 +6830,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-07-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-07-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-07-51.jpg",
         "familiarity": -13.0,
         "record_id": "record-0140"
       },
@@ -6878,7 +6878,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-07-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-07-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-07-56.jpg",
         "familiarity": 5.0,
         "record_id": "record-0141"
       },
@@ -6926,7 +6926,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-08-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-08-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-08-01.jpg",
         "familiarity": 6.0,
         "record_id": "record-0142"
       },
@@ -6974,7 +6974,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-08-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-08-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-08-06.jpg",
         "familiarity": 0.0,
         "record_id": "record-0143"
       },
@@ -7022,7 +7022,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-08-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-08-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-08-11.jpg",
         "familiarity": 1.0,
         "record_id": "record-0144"
       },
@@ -7070,7 +7070,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-08-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-08-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-08-16.jpg",
         "familiarity": 5.0,
         "record_id": "record-0145"
       },
@@ -7118,7 +7118,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-08-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-08-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-08-21.jpg",
         "familiarity": -22.0,
         "record_id": "record-0146"
       },
@@ -7166,7 +7166,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-08-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-08-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-08-26.jpg",
         "familiarity": -5.0,
         "record_id": "record-0147"
       },
@@ -7214,7 +7214,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-08-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-08-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-08-31.jpg",
         "familiarity": 24.0,
         "record_id": "record-0148"
       },
@@ -7262,7 +7262,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-08-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-08-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-08-36.jpg",
         "familiarity": -8.0,
         "record_id": "record-0149"
       },
@@ -7310,7 +7310,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-08-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-08-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-08-41.jpg",
         "familiarity": -2.0,
         "record_id": "record-0150"
       },
@@ -7358,7 +7358,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-08-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-08-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-08-46.jpg",
         "familiarity": -13.0,
         "record_id": "record-0151"
       },
@@ -7406,7 +7406,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-08-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-08-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-08-51.jpg",
         "familiarity": -15.0,
         "record_id": "record-0152"
       },
@@ -7454,7 +7454,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-08-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-08-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-08-56.jpg",
         "familiarity": 9.0,
         "record_id": "record-0153"
       },
@@ -7502,7 +7502,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-09-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-09-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-09-01.jpg",
         "familiarity": 19.0,
         "record_id": "record-0154"
       },
@@ -7550,7 +7550,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-09-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-09-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-09-06.jpg",
         "familiarity": -15.0,
         "record_id": "record-0155"
       },
@@ -7598,7 +7598,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-09-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-09-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-09-11.jpg",
         "familiarity": -26.0,
         "record_id": "record-0156"
       },
@@ -7646,7 +7646,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-09-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-09-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-09-16.jpg",
         "familiarity": 4.0,
         "record_id": "record-0157"
       },
@@ -7694,7 +7694,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-09-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-09-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-09-21.jpg",
         "familiarity": -3.0,
         "record_id": "record-0158"
       },
@@ -7742,7 +7742,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-09-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-09-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-09-26.jpg",
         "familiarity": -31.0,
         "record_id": "record-0159"
       },
@@ -7790,7 +7790,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-09-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-09-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-09-31.jpg",
         "familiarity": -12.0,
         "record_id": "record-0160"
       },
@@ -7838,7 +7838,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-09-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-09-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-09-36.jpg",
         "familiarity": 2.0,
         "record_id": "record-0161"
       },
@@ -7886,7 +7886,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-09-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-09-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-09-41.jpg",
         "familiarity": -17.0,
         "record_id": "record-0162"
       },
@@ -7934,7 +7934,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-09-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-09-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-09-46.jpg",
         "familiarity": 14.0,
         "record_id": "record-0163"
       },
@@ -7982,7 +7982,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-09-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-09-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-09-51.jpg",
         "familiarity": -25.0,
         "record_id": "record-0164"
       },
@@ -8030,7 +8030,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-09-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-09-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-09-56.jpg",
         "familiarity": 1.0,
         "record_id": "record-0165"
       },
@@ -8078,7 +8078,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-10-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-10-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-10-01.jpg",
         "familiarity": 5.0,
         "record_id": "record-0166"
       },
@@ -8126,7 +8126,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-10-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-10-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-10-06.jpg",
         "familiarity": 13.0,
         "record_id": "record-0167"
       },
@@ -8174,7 +8174,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-10-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-10-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-10-11.jpg",
         "familiarity": -11.0,
         "record_id": "record-0168"
       },
@@ -8222,7 +8222,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-10-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-10-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-10-16.jpg",
         "familiarity": 21.0,
         "record_id": "record-0169"
       },
@@ -8270,7 +8270,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-10-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-10-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-10-21.jpg",
         "familiarity": -1.0,
         "record_id": "record-0170"
       },
@@ -8318,7 +8318,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-10-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-10-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-10-26.jpg",
         "familiarity": 12.0,
         "record_id": "record-0171"
       },
@@ -8366,7 +8366,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-10-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-10-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-10-31.jpg",
         "familiarity": -1.0,
         "record_id": "record-0172"
       },
@@ -8414,7 +8414,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-10-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-10-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-10-36.jpg",
         "familiarity": 18.0,
         "record_id": "record-0173"
       },
@@ -8462,7 +8462,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-10-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-10-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-10-41.jpg",
         "familiarity": 13.0,
         "record_id": "record-0174"
       },
@@ -8510,7 +8510,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-10-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-10-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-10-46.jpg",
         "familiarity": -14.0,
         "record_id": "record-0175"
       },
@@ -8558,7 +8558,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-10-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-10-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-10-51.jpg",
         "familiarity": 13.0,
         "record_id": "record-0176"
       },
@@ -8606,7 +8606,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-10-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-10-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-10-56.jpg",
         "familiarity": 4.0,
         "record_id": "record-0177"
       },
@@ -8654,7 +8654,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-11-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-11-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-11-01.jpg",
         "familiarity": -9.0,
         "record_id": "record-0178"
       },
@@ -8702,7 +8702,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-11-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-11-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-11-06.jpg",
         "familiarity": 1.0,
         "record_id": "record-0179"
       },
@@ -8750,7 +8750,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-11-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-11-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-11-11.jpg",
         "familiarity": 8.0,
         "record_id": "record-0180"
       },
@@ -8798,7 +8798,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-11-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-11-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-11-16.jpg",
         "familiarity": 6.0,
         "record_id": "record-0181"
       },
@@ -8846,7 +8846,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-11-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-11-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-11-21.jpg",
         "familiarity": 13.0,
         "record_id": "record-0182"
       },
@@ -8894,7 +8894,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-11-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-11-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-11-26.jpg",
         "familiarity": 12.0,
         "record_id": "record-0183"
       },
@@ -8942,7 +8942,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-11-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-11-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-11-31.jpg",
         "familiarity": -30.0,
         "record_id": "record-0184"
       },
@@ -8990,7 +8990,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-11-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-11-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-11-36.jpg",
         "familiarity": 4.0,
         "record_id": "record-0185"
       },
@@ -9038,7 +9038,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-11-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-11-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-11-41.jpg",
         "familiarity": -11.0,
         "record_id": "record-0186"
       },
@@ -9086,7 +9086,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-11-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-11-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-11-46.jpg",
         "familiarity": 4.0,
         "record_id": "record-0187"
       },
@@ -9134,7 +9134,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-11-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-11-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-11-51.jpg",
         "familiarity": 14.0,
         "record_id": "record-0188"
       },
@@ -9182,7 +9182,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-11-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-11-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-11-56.jpg",
         "familiarity": -22.0,
         "record_id": "record-0189"
       },
@@ -9230,7 +9230,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-12-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-12-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-12-01.jpg",
         "familiarity": 3.0,
         "record_id": "record-0190"
       },
@@ -9278,7 +9278,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-12-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-12-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-12-06.jpg",
         "familiarity": 15.0,
         "record_id": "record-0191"
       },
@@ -9326,7 +9326,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-12-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-12-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-12-11.jpg",
         "familiarity": 21.0,
         "record_id": "record-0192"
       },
@@ -9374,7 +9374,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-12-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-12-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-12-16.jpg",
         "familiarity": -5.0,
         "record_id": "record-0193"
       },
@@ -9422,7 +9422,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-12-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-12-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-12-21.jpg",
         "familiarity": 1.0,
         "record_id": "record-0194"
       },
@@ -9470,7 +9470,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-12-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-12-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-12-26.jpg",
         "familiarity": -27.0,
         "record_id": "record-0195"
       },
@@ -9518,7 +9518,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-12-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-12-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-12-31.jpg",
         "familiarity": 17.0,
         "record_id": "record-0196"
       },
@@ -9566,7 +9566,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-12-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-12-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-12-36.jpg",
         "familiarity": 8.0,
         "record_id": "record-0197"
       },
@@ -9614,7 +9614,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-12-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-12-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-12-41.jpg",
         "familiarity": 10.0,
         "record_id": "record-0198"
       },
@@ -9662,7 +9662,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-12-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-12-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-12-46.jpg",
         "familiarity": -32.0,
         "record_id": "record-0199"
       },
@@ -9710,7 +9710,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-12-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-12-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-12-51.jpg",
         "familiarity": -25.0,
         "record_id": "record-0200"
       },
@@ -9758,7 +9758,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-12-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-12-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-12-56.jpg",
         "familiarity": 12.0,
         "record_id": "record-0201"
       },
@@ -9806,7 +9806,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-13-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-13-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-13-01.jpg",
         "familiarity": -4.0,
         "record_id": "record-0202"
       },
@@ -9854,7 +9854,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-13-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-13-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-13-06.jpg",
         "familiarity": -14.0,
         "record_id": "record-0203"
       },
@@ -9902,7 +9902,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-13-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-13-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-13-11.jpg",
         "familiarity": 11.0,
         "record_id": "record-0204"
       },
@@ -9950,7 +9950,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-13-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-13-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-13-16.jpg",
         "familiarity": 7.0,
         "record_id": "record-0205"
       },
@@ -9998,7 +9998,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-13-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-13-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-13-21.jpg",
         "familiarity": 17.0,
         "record_id": "record-0206"
       },
@@ -10046,7 +10046,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-13-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-13-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-13-26.jpg",
         "familiarity": 10.0,
         "record_id": "record-0207"
       },
@@ -10094,7 +10094,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-13-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-13-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-13-31.jpg",
         "familiarity": 6.0,
         "record_id": "record-0208"
       },
@@ -10142,7 +10142,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-13-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-13-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-13-36.jpg",
         "familiarity": 4.0,
         "record_id": "record-0209"
       },
@@ -10190,7 +10190,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-13-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-13-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-13-41.jpg",
         "familiarity": 16.0,
         "record_id": "record-0210"
       },
@@ -10238,7 +10238,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-13-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-13-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-13-46.jpg",
         "familiarity": 13.0,
         "record_id": "record-0211"
       },
@@ -10286,7 +10286,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-13-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-13-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-13-51.jpg",
         "familiarity": 4.0,
         "record_id": "record-0212"
       },
@@ -10334,7 +10334,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-13-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-13-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-13-56.jpg",
         "familiarity": 14.0,
         "record_id": "record-0213"
       },
@@ -10382,7 +10382,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-14-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-14-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-14-01.jpg",
         "familiarity": 0.0,
         "record_id": "record-0214"
       },
@@ -10430,7 +10430,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-14-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-14-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-14-06.jpg",
         "familiarity": 17.0,
         "record_id": "record-0215"
       },
@@ -10478,7 +10478,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-14-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-14-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-14-11.jpg",
         "familiarity": 4.0,
         "record_id": "record-0216"
       },
@@ -10526,7 +10526,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-14-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-14-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-14-16.jpg",
         "familiarity": 10.0,
         "record_id": "record-0217"
       },
@@ -10574,7 +10574,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-14-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-14-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-14-21.jpg",
         "familiarity": 14.0,
         "record_id": "record-0218"
       },
@@ -10622,7 +10622,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, attention, relaxation, delta, theta, low_alpha, high_alpha, low_beta, high_beta, low_gamma, mid_gamma, pitch, yaw, roll, sync_rate, mental_effort, familarity, temperature, heart_rate",
         "image_expected_filename": "2026-07-17_13-14-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-14-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-14-26.jpg",
         "familiarity": 8.0,
         "record_id": "record-0219"
       },
@@ -10670,7 +10670,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-14-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-14-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-14-31.jpg",
         "familiarity": 15.0,
         "record_id": "record-0220"
       },
@@ -10718,7 +10718,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-14-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-14-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-14-36.jpg",
         "familiarity": 2.0,
         "record_id": "record-0221"
       },
@@ -10766,7 +10766,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-14-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-14-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-14-41.jpg",
         "familiarity": -8.0,
         "record_id": "record-0222"
       },
@@ -10814,7 +10814,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-14-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-14-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-14-46.jpg",
         "familiarity": -20.0,
         "record_id": "record-0223"
       },
@@ -10862,7 +10862,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-14-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-14-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-14-51.jpg",
         "familiarity": -9.0,
         "record_id": "record-0224"
       },
@@ -10910,7 +10910,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-14-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-14-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-14-56.jpg",
         "familiarity": 6.0,
         "record_id": "record-0225"
       },
@@ -10958,7 +10958,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-15-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-15-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-15-01.jpg",
         "familiarity": 9.0,
         "record_id": "record-0226"
       },
@@ -11006,7 +11006,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-15-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-15-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-15-06.jpg",
         "familiarity": 12.0,
         "record_id": "record-0227"
       },
@@ -11054,7 +11054,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-15-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-15-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-15-11.jpg",
         "familiarity": -4.0,
         "record_id": "record-0228"
       },
@@ -11102,7 +11102,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-15-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-15-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-15-16.jpg",
         "familiarity": 14.0,
         "record_id": "record-0229"
       },
@@ -11150,7 +11150,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-15-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-15-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-15-21.jpg",
         "familiarity": 20.0,
         "record_id": "record-0230"
       },
@@ -11198,7 +11198,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-15-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-15-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-15-26.jpg",
         "familiarity": 8.0,
         "record_id": "record-0231"
       },
@@ -11246,7 +11246,7 @@
         "unit": "bpm",
         "interpolated_fields": "attention, relaxation, delta, theta, low_alpha, high_alpha, low_beta, high_beta, low_gamma, mid_gamma, pitch, yaw, roll, sync_rate, mental_effort, familarity, temperature, heart_rate",
         "image_expected_filename": "2026-07-17_13-15-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-15-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-15-31.jpg",
         "familiarity": 24.5,
         "record_id": "record-0232"
       },
@@ -11294,7 +11294,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-15-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-15-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-15-36.jpg",
         "familiarity": 5.0,
         "record_id": "record-0233"
       },
@@ -11342,7 +11342,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-15-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-15-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-15-41.jpg",
         "familiarity": -15.0,
         "record_id": "record-0234"
       },
@@ -11390,7 +11390,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-15-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-15-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-15-46.jpg",
         "familiarity": -18.0,
         "record_id": "record-0235"
       },
@@ -11438,7 +11438,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-15-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-15-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-15-51.jpg",
         "familiarity": 12.0,
         "record_id": "record-0236"
       },
@@ -11486,7 +11486,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-15-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-15-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-15-56.jpg",
         "familiarity": -2.0,
         "record_id": "record-0237"
       },
@@ -11534,7 +11534,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-16-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-16-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-16-01.jpg",
         "familiarity": 3.0,
         "record_id": "record-0238"
       },
@@ -11582,7 +11582,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-16-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-16-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-16-06.jpg",
         "familiarity": 14.0,
         "record_id": "record-0239"
       },
@@ -11630,7 +11630,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-16-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-16-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-16-11.jpg",
         "familiarity": -10.0,
         "record_id": "record-0240"
       },
@@ -11678,7 +11678,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-16-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-16-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-16-16.jpg",
         "familiarity": 2.0,
         "record_id": "record-0241"
       },
@@ -11726,7 +11726,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-16-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-16-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-16-21.jpg",
         "familiarity": -8.0,
         "record_id": "record-0242"
       },
@@ -11774,7 +11774,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-16-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-16-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-16-26.jpg",
         "familiarity": -33.0,
         "record_id": "record-0243"
       },
@@ -11822,7 +11822,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-16-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-16-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-16-31.jpg",
         "familiarity": -15.0,
         "record_id": "record-0244"
       },
@@ -11870,7 +11870,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-16-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-16-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-16-36.jpg",
         "familiarity": 14.0,
         "record_id": "record-0245"
       },
@@ -11918,7 +11918,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-16-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-16-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-16-41.jpg",
         "familiarity": -5.0,
         "record_id": "record-0246"
       },
@@ -11966,7 +11966,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-16-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-16-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-16-46.jpg",
         "familiarity": 2.0,
         "record_id": "record-0247"
       },
@@ -12014,7 +12014,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-16-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-16-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-16-51.jpg",
         "familiarity": 8.0,
         "record_id": "record-0248"
       },
@@ -12062,7 +12062,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-16-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-16-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-16-56.jpg",
         "familiarity": 1.0,
         "record_id": "record-0249"
       },
@@ -12110,7 +12110,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-17-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-17-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-17-01.jpg",
         "familiarity": -9.0,
         "record_id": "record-0250"
       },
@@ -12158,7 +12158,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-17-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-17-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-17-06.jpg",
         "familiarity": -8.0,
         "record_id": "record-0251"
       },
@@ -12206,7 +12206,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-17-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-17-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-17-11.jpg",
         "familiarity": -13.0,
         "record_id": "record-0252"
       },
@@ -12254,7 +12254,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-17-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-17-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-17-16.jpg",
         "familiarity": 18.0,
         "record_id": "record-0253"
       },
@@ -12302,7 +12302,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-17-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-17-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-17-21.jpg",
         "familiarity": 7.0,
         "record_id": "record-0254"
       },
@@ -12350,7 +12350,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-17-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-17-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-17-26.jpg",
         "familiarity": 10.0,
         "record_id": "record-0255"
       },
@@ -12398,7 +12398,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-17-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-17-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-17-31.jpg",
         "familiarity": 7.0,
         "record_id": "record-0256"
       },
@@ -12446,7 +12446,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-17-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-17-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-17-36.jpg",
         "familiarity": -6.0,
         "record_id": "record-0257"
       },
@@ -12494,7 +12494,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-17-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-17-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-17-41.jpg",
         "familiarity": 19.0,
         "record_id": "record-0258"
       },
@@ -12542,7 +12542,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-17-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-17-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-17-46.jpg",
         "familiarity": -9.0,
         "record_id": "record-0259"
       },
@@ -12590,7 +12590,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-17-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-17-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-17-51.jpg",
         "familiarity": 1.0,
         "record_id": "record-0260"
       },
@@ -12638,7 +12638,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-17-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-17-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-17-56.jpg",
         "familiarity": 16.0,
         "record_id": "record-0261"
       },
@@ -12686,7 +12686,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-18-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-18-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-18-01.jpg",
         "familiarity": 14.0,
         "record_id": "record-0262"
       },
@@ -12734,7 +12734,7 @@
         "unit": "bpm",
         "interpolated_fields": "attention, relaxation, delta, theta, low_alpha, high_alpha, low_beta, high_beta, low_gamma, mid_gamma, pitch, yaw, roll, sync_rate, mental_effort, familarity, temperature, heart_rate",
         "image_expected_filename": "2026-07-17_13-18-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-18-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-18-06.jpg",
         "familiarity": 5.5,
         "record_id": "record-0263"
       },
@@ -12782,7 +12782,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-18-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-18-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-18-11.jpg",
         "familiarity": -23.0,
         "record_id": "record-0264"
       },
@@ -12830,7 +12830,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-18-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-18-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-18-16.jpg",
         "familiarity": -1.0,
         "record_id": "record-0265"
       },
@@ -12878,7 +12878,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-18-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-18-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-18-21.jpg",
         "familiarity": 13.0,
         "record_id": "record-0266"
       },
@@ -12926,7 +12926,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-18-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-18-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-18-26.jpg",
         "familiarity": 3.0,
         "record_id": "record-0267"
       },
@@ -12974,7 +12974,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-18-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-18-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-18-31.jpg",
         "familiarity": -30.0,
         "record_id": "record-0268"
       },
@@ -13022,7 +13022,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-18-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-18-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-18-36.jpg",
         "familiarity": -12.0,
         "record_id": "record-0269"
       },
@@ -13070,7 +13070,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-18-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-18-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-18-41.jpg",
         "familiarity": 19.0,
         "record_id": "record-0270"
       },
@@ -13118,7 +13118,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-18-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-18-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-18-46.jpg",
         "familiarity": 2.0,
         "record_id": "record-0271"
       },
@@ -13166,7 +13166,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-18-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-18-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-18-51.jpg",
         "familiarity": -9.0,
         "record_id": "record-0272"
       },
@@ -13214,7 +13214,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-18-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-18-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-18-56.jpg",
         "familiarity": -15.0,
         "record_id": "record-0273"
       },
@@ -13262,7 +13262,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-19-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-19-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-19-01.jpg",
         "familiarity": 1.0,
         "record_id": "record-0274"
       },
@@ -13310,7 +13310,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-19-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-19-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-19-06.jpg",
         "familiarity": 22.0,
         "record_id": "record-0275"
       },
@@ -13358,7 +13358,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-19-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-19-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-19-11.jpg",
         "familiarity": -7.0,
         "record_id": "record-0276"
       },
@@ -13406,7 +13406,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-19-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-19-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-19-16.jpg",
         "familiarity": -1.0,
         "record_id": "record-0277"
       },
@@ -13454,7 +13454,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-19-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-19-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-19-21.jpg",
         "familiarity": 7.0,
         "record_id": "record-0278"
       },
@@ -13502,7 +13502,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-19-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-19-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-19-26.jpg",
         "familiarity": 7.0,
         "record_id": "record-0279"
       },
@@ -13550,7 +13550,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-19-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-19-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-19-31.jpg",
         "familiarity": 10.0,
         "record_id": "record-0280"
       },
@@ -13598,7 +13598,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-19-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-19-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-19-36.jpg",
         "familiarity": -8.0,
         "record_id": "record-0281"
       },
@@ -13646,7 +13646,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-19-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-19-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-19-41.jpg",
         "familiarity": -14.0,
         "record_id": "record-0282"
       },
@@ -13694,7 +13694,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-19-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-19-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-19-46.jpg",
         "familiarity": 15.0,
         "record_id": "record-0283"
       },
@@ -13742,7 +13742,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-19-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-19-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-19-51.jpg",
         "familiarity": 21.0,
         "record_id": "record-0284"
       },
@@ -13790,7 +13790,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-19-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-19-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-19-56.jpg",
         "familiarity": 14.0,
         "record_id": "record-0285"
       },
@@ -13838,7 +13838,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-20-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-20-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-20-01.jpg",
         "familiarity": 4.0,
         "record_id": "record-0286"
       },
@@ -13886,7 +13886,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-20-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-20-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-20-06.jpg",
         "familiarity": -10.0,
         "record_id": "record-0287"
       },
@@ -13934,7 +13934,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-20-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-20-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-20-11.jpg",
         "familiarity": -4.0,
         "record_id": "record-0288"
       },
@@ -13982,7 +13982,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-20-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-20-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-20-16.jpg",
         "familiarity": 14.0,
         "record_id": "record-0289"
       },
@@ -14030,7 +14030,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-20-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-20-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-20-21.jpg",
         "familiarity": 7.0,
         "record_id": "record-0290"
       },
@@ -14078,7 +14078,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-20-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-20-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-20-26.jpg",
         "familiarity": 7.0,
         "record_id": "record-0291"
       },
@@ -14126,7 +14126,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-20-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-20-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-20-31.jpg",
         "familiarity": 15.0,
         "record_id": "record-0292"
       },
@@ -14174,7 +14174,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-20-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-20-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-20-36.jpg",
         "familiarity": -25.0,
         "record_id": "record-0293"
       },
@@ -14222,7 +14222,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-20-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-20-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-20-41.jpg",
         "familiarity": -22.0,
         "record_id": "record-0294"
       },
@@ -14270,7 +14270,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-20-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-20-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-20-46.jpg",
         "familiarity": -10.0,
         "record_id": "record-0295"
       },
@@ -14318,7 +14318,7 @@
         "unit": "bpm",
         "interpolated_fields": "",
         "image_expected_filename": "2026-07-17_13-20-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-20-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-20-51.jpg",
         "familiarity": -29.0,
         "record_id": "record-0296"
       },
@@ -14366,7 +14366,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-20-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-20-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-20-56.jpg",
         "familiarity": 4.0,
         "record_id": "record-0297"
       },
@@ -14414,7 +14414,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-21-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-21-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-21-01.jpg",
         "familiarity": 6.0,
         "record_id": "record-0298"
       },
@@ -14462,7 +14462,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-21-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-21-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-21-06.jpg",
         "familiarity": -10.0,
         "record_id": "record-0299"
       },
@@ -14510,7 +14510,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-21-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-21-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-21-11.jpg",
         "familiarity": 8.0,
         "record_id": "record-0300"
       },
@@ -14558,7 +14558,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-21-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-21-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-21-16.jpg",
         "familiarity": 1.0,
         "record_id": "record-0301"
       },
@@ -14606,7 +14606,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-21-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-21-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-21-21.jpg",
         "familiarity": 3.0,
         "record_id": "record-0302"
       },
@@ -14654,7 +14654,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-21-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-21-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-21-26.jpg",
         "familiarity": -5.0,
         "record_id": "record-0303"
       },
@@ -14702,7 +14702,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-21-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-21-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-21-31.jpg",
         "familiarity": -43.0,
         "record_id": "record-0304"
       },
@@ -14750,7 +14750,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-21-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-21-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-21-36.jpg",
         "familiarity": -18.0,
         "record_id": "record-0305"
       },
@@ -14798,7 +14798,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-21-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-21-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-21-41.jpg",
         "familiarity": 12.0,
         "record_id": "record-0306"
       },
@@ -14846,7 +14846,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-21-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-21-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-21-46.jpg",
         "familiarity": -4.0,
         "record_id": "record-0307"
       },
@@ -14894,7 +14894,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-21-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-21-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-21-51.jpg",
         "familiarity": 2.0,
         "record_id": "record-0308"
       },
@@ -14942,7 +14942,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-21-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-21-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-21-56.jpg",
         "familiarity": -11.0,
         "record_id": "record-0309"
       },
@@ -14990,7 +14990,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-22-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-22-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-22-01.jpg",
         "familiarity": -4.0,
         "record_id": "record-0310"
       },
@@ -15038,7 +15038,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-22-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-22-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-22-06.jpg",
         "familiarity": -22.0,
         "record_id": "record-0311"
       },
@@ -15086,7 +15086,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-22-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-22-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-22-11.jpg",
         "familiarity": -10.0,
         "record_id": "record-0312"
       },
@@ -15134,7 +15134,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-22-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-22-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-22-16.jpg",
         "familiarity": -23.0,
         "record_id": "record-0313"
       },
@@ -15182,7 +15182,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, attention, relaxation, delta, theta, low_alpha, high_alpha, low_beta, high_beta, low_gamma, mid_gamma, pitch, yaw, roll, sync_rate, mental_effort, familarity, temperature, heart_rate",
         "image_expected_filename": "2026-07-17_13-22-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-22-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-22-21.jpg",
         "familiarity": -19.0,
         "record_id": "record-0314"
       },
@@ -15230,7 +15230,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-22-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-22-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-22-26.jpg",
         "familiarity": -26.0,
         "record_id": "record-0315"
       },
@@ -15278,7 +15278,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-22-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-22-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-22-31.jpg",
         "familiarity": 9.0,
         "record_id": "record-0316"
       },
@@ -15326,7 +15326,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-22-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-22-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-22-36.jpg",
         "familiarity": 3.0,
         "record_id": "record-0317"
       },
@@ -15374,7 +15374,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-22-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-22-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-22-41.jpg",
         "familiarity": 6.0,
         "record_id": "record-0318"
       },
@@ -15422,7 +15422,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-22-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-22-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-22-46.jpg",
         "familiarity": 24.0,
         "record_id": "record-0319"
       },
@@ -15470,7 +15470,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-22-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-22-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-22-51.jpg",
         "familiarity": 1.0,
         "record_id": "record-0320"
       },
@@ -15518,7 +15518,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-22-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-22-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-22-56.jpg",
         "familiarity": -8.0,
         "record_id": "record-0321"
       },
@@ -15566,7 +15566,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-23-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-23-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-23-01.jpg",
         "familiarity": -7.0,
         "record_id": "record-0322"
       },
@@ -15614,7 +15614,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-23-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-23-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-23-06.jpg",
         "familiarity": -5.0,
         "record_id": "record-0323"
       },
@@ -15662,7 +15662,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-23-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-23-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-23-11.jpg",
         "familiarity": -3.0,
         "record_id": "record-0324"
       },
@@ -15710,7 +15710,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_13-23-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-23-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-23-16.jpg",
         "familiarity": 14.0,
         "record_id": "record-0325"
       },
@@ -15758,7 +15758,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-23-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-23-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-23-21.jpg",
         "familiarity": 14.0,
         "record_id": "record-0326"
       },
@@ -15806,7 +15806,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-23-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-23-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-23-26.jpg",
         "familiarity": 14.0,
         "record_id": "record-0327"
       },
@@ -15854,7 +15854,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-23-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-23-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-23-31.jpg",
         "familiarity": 14.0,
         "record_id": "record-0328"
       },
@@ -15902,7 +15902,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-23-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-23-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-23-36.jpg",
         "familiarity": 14.0,
         "record_id": "record-0329"
       },
@@ -15950,7 +15950,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-23-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-23-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-23-41.jpg",
         "familiarity": 14.0,
         "record_id": "record-0330"
       },
@@ -15998,7 +15998,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-23-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-23-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-23-46.jpg",
         "familiarity": 14.0,
         "record_id": "record-0331"
       },
@@ -16046,7 +16046,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-23-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-23-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-23-51.jpg",
         "familiarity": 14.0,
         "record_id": "record-0332"
       },
@@ -16094,7 +16094,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-23-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-23-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-23-56.jpg",
         "familiarity": 14.0,
         "record_id": "record-0333"
       },
@@ -16142,7 +16142,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-24-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-24-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-24-01.jpg",
         "familiarity": 14.0,
         "record_id": "record-0334"
       },
@@ -16190,7 +16190,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-24-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-24-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-24-06.jpg",
         "familiarity": 14.0,
         "record_id": "record-0335"
       },
@@ -16238,7 +16238,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, pitch, yaw, roll, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-24-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-24-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-24-11.jpg",
         "familiarity": 14.0,
         "record_id": "record-0336"
       },
@@ -16286,7 +16286,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, pitch, yaw, roll, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-24-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-24-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-24-16.jpg",
         "familiarity": 14.0,
         "record_id": "record-0337"
       },
@@ -16334,7 +16334,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, pitch, yaw, roll, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-24-21.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-24-21.png",
+        "spectrogram": "spectrogram/2026-07-17_13-24-21.jpg",
         "familiarity": 14.0,
         "record_id": "record-0338"
       },
@@ -16382,7 +16382,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, pitch, yaw, roll, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-24-26.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-24-26.png",
+        "spectrogram": "spectrogram/2026-07-17_13-24-26.jpg",
         "familiarity": 14.0,
         "record_id": "record-0339"
       },
@@ -16430,7 +16430,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, pitch, yaw, roll, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-24-31.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-24-31.png",
+        "spectrogram": "spectrogram/2026-07-17_13-24-31.jpg",
         "familiarity": 14.0,
         "record_id": "record-0340"
       },
@@ -16478,7 +16478,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, pitch, yaw, roll, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-24-36.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-24-36.png",
+        "spectrogram": "spectrogram/2026-07-17_13-24-36.jpg",
         "familiarity": 14.0,
         "record_id": "record-0341"
       },
@@ -16526,7 +16526,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, pitch, yaw, roll, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-24-41.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-24-41.png",
+        "spectrogram": "spectrogram/2026-07-17_13-24-41.jpg",
         "familiarity": 14.0,
         "record_id": "record-0342"
       },
@@ -16574,7 +16574,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, attention, relaxation, delta, theta, low_alpha, high_alpha, low_beta, high_beta, low_gamma, mid_gamma, pitch, yaw, roll, sync_rate, mental_effort, familarity, temperature, heart_rate",
         "image_expected_filename": "2026-07-17_13-24-46.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-24-46.png",
+        "spectrogram": "spectrogram/2026-07-17_13-24-46.jpg",
         "familiarity": 14.0,
         "record_id": "record-0343"
       },
@@ -16622,7 +16622,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, pitch, yaw, roll, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-24-51.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-24-51.png",
+        "spectrogram": "spectrogram/2026-07-17_13-24-51.jpg",
         "familiarity": 14.0,
         "record_id": "record-0344"
       },
@@ -16670,7 +16670,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, pitch, yaw, roll, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-24-56.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-24-56.png",
+        "spectrogram": "spectrogram/2026-07-17_13-24-56.jpg",
         "familiarity": 14.0,
         "record_id": "record-0345"
       },
@@ -16718,7 +16718,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, pitch, yaw, roll, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-25-01.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-25-01.png",
+        "spectrogram": "spectrogram/2026-07-17_13-25-01.jpg",
         "familiarity": 14.0,
         "record_id": "record-0346"
       },
@@ -16766,7 +16766,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, pitch, yaw, roll, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-25-06.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-25-06.png",
+        "spectrogram": "spectrogram/2026-07-17_13-25-06.jpg",
         "familiarity": 14.0,
         "record_id": "record-0347"
       },
@@ -16814,7 +16814,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, pitch, yaw, roll, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-25-11.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-25-11.png",
+        "spectrogram": "spectrogram/2026-07-17_13-25-11.jpg",
         "familiarity": 14.0,
         "record_id": "record-0348"
       },
@@ -16862,7 +16862,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr, pitch, yaw, roll, mental_effort, familarity",
         "image_expected_filename": "2026-07-17_13-25-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_13-25-16.png",
+        "spectrogram": "spectrogram/2026-07-17_13-25-16.jpg",
         "familiarity": 14.0,
         "record_id": "record-0349"
       },
