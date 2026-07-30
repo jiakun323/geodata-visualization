@@ -128,7 +128,7 @@
       "properties": {
         "city": "venice",
         "timestamp": "2026-07-17 12:56:16",
-        "image": "extracted_frames/2026-07-17_12-56-16.jpg",
+        "image": "../extracted_frames/2026-07-17_12-56-16.jpg",
         "audio": "",
         "event_mark": "",
         "heart_rate": 92.0,
@@ -158,7 +158,7 @@
         "unit": "bpm",
         "interpolated_fields": "rr",
         "image_expected_filename": "2026-07-17_12-56-16.jpg",
-        "spectrogram": "spectrogram/2026-07-17_12-56-16.jpg",
+        "spectrogram": "../spectrogram/2026-07-17_12-56-16.jpg",
         "familiarity": -10.0,
         "record_id": "record-0001"
       },
