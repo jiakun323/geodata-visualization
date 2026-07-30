@@ -1,0 +1,2 @@
+spectrogram/*.jpg filter=lfs diff=lfs merge=lfs -text
+extracted_frames/*.jpg filter=lfs diff=lfs merge=lfs -text
